@@ -173,7 +173,7 @@ class EmelyaBreezerCard extends LitElement {
       tap_action: { action: "more-info" },
       hold_action: { action: "none" },
       double_tap_action: { action: "none" },
-      title: "Бризер",
+      title: "",
       label_on: "Включено",
       label_off: "Выключено",
       card_mod: {
@@ -967,7 +967,7 @@ EmelyaBreezerCard.getConfigElement = function () {
 
 EmelyaBreezerCard.getStubConfig = function () {
   return {
-    title: "Бризер",
+    title: "",
     label_on: "",
     label_off: "Выключено",
     entity: "",
